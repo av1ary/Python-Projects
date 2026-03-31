@@ -5,5 +5,5 @@ Note: Projects are built using synthetic or web-sourced datasets.
 
 Projects:
 
-1. Client Segmentation & Behavior
-   [](path%20with%20spaces/other_file.md)
+1. [Client Segmentation & Behavior](RFM,_Cohort_and_CLTV_Analysis.ipynb)
+   
