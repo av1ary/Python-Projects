@@ -6,4 +6,4 @@ Note: Projects are built using synthetic or web-sourced datasets.
 Projects:
 
 1. [Client Segmentation & Behavior](RFM,_Cohort_and_CLTV_Analysis.ipynb)
-2. [Clients' repayment abilities prediction](Home_Credit.ipynb)
+2. [Clients' repayment abilities prediction](Loan_Default_Prediction.ipynb)
