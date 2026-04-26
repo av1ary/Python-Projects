@@ -7,3 +7,4 @@ Projects:
 
 1. [Client Segmentation & Behavior](RFM,_Cohort_and_CLTV_Analysis.ipynb)
 2. [Clients' repayment abilities prediction](Loan_Default_Prediction.ipynb)
+3. [Sales Forecasting](Sales_Forecasting.ipynb)
