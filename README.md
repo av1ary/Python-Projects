@@ -14,12 +14,15 @@ Projects:
 This project is a  Sales Forecasting system built on the Brazilian E-Commerce Public Dataset (Olist) on Kaggle. It focuses on predicting weekly product demand across different regions and categories to help businesses optimise inventory and understand regional market dynamics. The general idea was to recreate the ecom/marketplace basic model for a storage inventory optimisation system. So if a seller has a stable demand in several regions, the marketplace would predict it and store enough products.
 
 **Purpose**
+
 Regional Demand Prediction: Predicting demand at the regional level for sellers and products using price elasticity.
 
 **Data**
+
 The project utilises the Olist Brazilian E-Commerce dataset from Kaggle, which contains approximately 100,000 orders from 2016 to 2018. Target is the number of products sold by the seller in the region.
 
 **Methods**
+
 Data preparation:
 Filtering for "delivered" orders, aggregating transactional data into weekly buckets, and handling high-cardinality categorical variables using label/category encoding and creating a synthetic twin with zero sales.
 
@@ -38,6 +41,7 @@ Validation:
 A Time-series split was used, where the most recent weeks were reserved for testing to simulate a real-world forecasting scenario in ecom/marketplace.
 
 **Key Insights**
+
 Price Matters: The model confirms that "Relative Price" within a category is a major driver of demand—customers in this marketplace are highly price-sensitive.
 
 Elasticity Works: Adding features that represent economic elasticity (relationship between price and demand) improved model accuracy (RMSE) significantly.
