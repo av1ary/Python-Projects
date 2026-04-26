@@ -9,7 +9,7 @@ Projects:
 
    The project provides basic analytical models to understand customer behaviour and predict long-term value in an e-commerce context. The project is written for junior analysts to onboard as far as possible into the ecom context. By transitioning from historical snapshots (RFM) to predictive modelling (CLTV), the analysis enables data-driven marketing strategies, and its advanced versions are used in the companies I worked/work for.
 
-**Data Refinement & Quality Control**
+**Data Handling**
 
 Outliers: A crucial step was the decision to clamp outliers rather than delete them. Since extreme purchase values significantly skew Customer Lifetime Value (CLTV) models, capping these values ensured the model remained stable without losing the record of high-value transactions. In Data Analyst courses, this step is not explained.
 
@@ -25,9 +25,7 @@ Beyond looking at the past, the project used the BG/NBD and Gamma-Gamma models t
 
 **Cohort Retention Analysis**
 
-Time-Based Behavior: By grouping customers by their first purchase month, the analysis tracked how well the business retains users over time. In a better version, the MAU is divided by subscription methods, social features and so on.
-
-The "Drop-off" Point: Cohort charts typically reveal the specific month where retention drops most sharply, identifying critical windows for sending  personalized coupons.
+Time-Based Behavior: By grouping customers by their first purchase month, the analysis tracked how well the business retains users over time. In a better version, the MAU is divided by subscription methods, social features and so on. Cohort charts typically reveal the specific month where retention drops most sharply, identifying critical windows for sending  personalized coupons.
    
 2. [Clients' repayment abilities prediction](Loan_Default_Prediction.ipynb)
    
